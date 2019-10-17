@@ -1,0 +1,131 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Bold.ttf');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('../fonts/gothamhtf-book-webfont.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background: #282828;
+	font-family: Roboto;
+}
+
+.title {
+	color: #FFD300;
+	font-family: Gotham;
+	font-size: 42px;
+	margin: 30px auto;
+	text-align: center;
+	width: 100%;
+}
+
+.frm {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.greeting {
+	color: #FFD300;
+	font-size: 20px;
+	text-align: right;
+	margin-right: 20px;
+	witdh: 100%;
+}
+
+.mensagem-erro {
+	color: #A30000;
+	font-size: 20px;
+}
+
+p {
+	color: #FFD300;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+label {
+	color: #FFD300;
+	font-size: 20px;
+	display: block;
+}
+
+input {
+	background-color: transparent;
+	border: 0;
+	border-bottom: 2px solid #FFD300;
+	color: #FFD300;
+	display: block;
+	font-size: 18px;
+	margin: 15px auto;
+	padding: 14px 22px;
+	width: 100%;
+}
+
+input::placeholder {
+	color: #FFD300;
+	font-size: 18px;
+	opacity: .6;
+}
+
+button {
+	background-color: #FFD300;
+	border: 0;
+	border-radius:4px;
+	color: #282828;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 700;
+	float: right;
+	margin-right: -45px;
+	margin-bottom: 20px;
+	padding: 14px 22px;
+	transition: .3s all ease-in-out;
+	-webkit-transition: .3s all ease-in-out;
+	-moz-transition: .3s all ease-in-out;
+}
+
+button:hover {
+	background-color: #686868;
+	color: #FFD300;
+}
+
+hr {
+	border-bottom: 2px dotted #FFD300;
+	margin: 25px 0;
+	clear: both;
+}
+
+h2 {
+	color: #FFD300;
+	font-size: 28px;
+	margin-left: 20px;
+}
+
+ul {
+	clear: both;
+	margin-left: 40px;
+}
+
+li {
+	border-bottom: 2px dotted rgba(255, 211, 0, .2);
+	color: #FFD300;
+	font-size: 20px;
+	list-style-type: square;
+	margin-bottom: 10px;
+	width: 100%;
+}
